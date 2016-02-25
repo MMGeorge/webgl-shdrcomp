@@ -17,7 +17,7 @@ Then add the following to your .emacs file:
 Saving a file ending in .vert or .frag will compile a shdr_vert.js or shdr_frag.js respectively. Initialize the fragment and vertex shaders with VSHADER_SOURCE and FSHADER_SOURCE. 
 
 ### Recommended:
-I strongly recommend the following packages for writing and debugging glsl shaders:
+I highly recommend the following packages for writing and debugging GLSL shaders:
 * [glsl-mode] - A major mode for Open GLSL shader files
 * [flycheck] - For basic error checking
 * [flycheck-glsl] - Extends flycheck functionality to glsl
@@ -28,7 +28,7 @@ I strongly recommend the following packages for writing and debugging glsl shade
    
  
 ### License:
-This program is free software: you can redistribute it and/or modify
+    This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
