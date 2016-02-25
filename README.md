@@ -20,7 +20,7 @@ Saving a file ending in .vert or .frag will compile a shdr_vert.js or shdr_frag.
 I highly recommend the following packages for writing and debugging GLSL shaders:
 * [glsl-mode] - A major mode for Open GLSL shader files
 * [flycheck] - For basic error checking
-* [flycheck-glsl] - Extends flycheck functionality to glsl
+* [flycheck-glsl] - Extends flycheck functionality to GLSL
 
    [flycheck]: <https://github.com/flycheck/flycheck>
    [flycheck-glsl]: <https://github.com/Kaali/flycheck-glsl>
