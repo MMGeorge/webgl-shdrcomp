@@ -1,7 +1,7 @@
 ;;; webgl-shdrcomp.el --- Automatically compile GLSL shaders into Javascript
 
 ;; Copyright (C) Matthew George
-;; Time-stamp: <2016-02-24 22:32:59>
+;; Time-stamp: <2016-02-24 23:02:24>
 ;; Version 0.01
 
 ;;; License:
@@ -32,6 +32,8 @@
 ;;; Code:
 
 (defun compile-shader()
+  "Reads the file extension of the current buffer, and generates a
+   shdr_vert.js or shdr_frag.js file respectively"
   (let* ((buff (buffer-file-name))
 	 (f-name (file-name-extension buff))
 	 (f-direct (file-name-directory buff))
