@@ -14,7 +14,7 @@ Then add the following to your .emacs file:
 
 ### Usage:
 
-Saving a file ending in .vert or .frag will compile a shdr_vert.js or shdr_frag.js respectively. Initialize the fragment and vertex shaders with VSHADER_SOURCE and FSHADER_SOURCE. 
+Saving a file ending in .vert or .frag compiles a _[filename].js with a small amount of header/footer information added in order to convert the GLSL shaders into JS strings. Initialize the shaders with [filename]_SOURCE. 
 
 ### Recommended:
 I highly recommend the following packages for writing and debugging GLSL shaders:
